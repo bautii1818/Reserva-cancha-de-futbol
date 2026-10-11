@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="Barra">
+            <p class="logo1">DOBLE</p>
+            <p class="logo2">5</p>
+            <a class="inicio" href="#">Inicio</a>
+            <a class="canchas" href="#">Canchas</a>
+            <a class="menu" href="#">Menú</a>
+            <a class="contacto" href="#">Contacto</a>
+            <a class="perfil" href="#">Perfil</a>
+            <a class="reservar" href="#">Reservar</a>
+        </nav>
+    </header>
+    <main>
+        <h1 class="titulo">Iniciar Sesión</h1>
+        <h2 class="subtitulo">Ingresá con tu cuenta</h2>
+    </main>
+</body>
+</html>
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.Barra{
+    display: flex;
+    align-items: center;
+}   
+.logo1{ 
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 2rem;
+    color: #0B3D2E;
+    font-weight: bold;
+}
+.logo2{
+    color: #ffffff;
+    background-color: #B3F34A;
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: 2rem;
+    padding: 2px 12px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.inicio{
+    margin-top: 25px;
+    margin-left: 300px;
+    font-size: 30px;
+    color: gray;
+    text-decoration: none;
+}
+.canchas{
+    margin-top: 25px;
+    margin-left: 100px;
+    font-size: 30px;
+    color: gray;
+    text-decoration: none;
+}
+.menu{
+    margin-top: 25px;
+    margin-left: 100px;
+    font-size: 30px;
+    color: gray;
+    text-decoration: none;
+}
+.contacto{
+    margin-top: 25px;
+    margin-left: 100px;
+    font-size: 30px;
+    color: gray;
+    text-decoration: none;
+}
+.perfil{
+    margin-top: 20px;
+    margin-left: 200px;
+    font-size: 30px;
+    padding: 3px 50px;
+    border: 2px solid #0B3D2E;
+    border-radius: 20px;
+    color: #0B3D2E ;
+    text-decoration: none;
+    font-weight: 550;
+}
+.reservar{
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 30px;
+    padding: 3px 50px;
+    background-color: #B3F34A;
+    border-radius: 20px;
+    color: #0B3D2E ;
+    text-decoration: none;
+    font-weight: 550;
+}
+.titulo{
+    margin-top: 60px;
+    margin-left: 80px;
+    font-size: 3rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.subtitulo{
+    margin-left: 80px;
+    color: gray;
+}
